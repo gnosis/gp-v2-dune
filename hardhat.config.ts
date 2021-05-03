@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 import type { HttpNetworkUserConfig } from "hardhat/types";
 import yargs from "yargs";
 
+import { setupTasks } from "./src/tasks";
+
 const argv = yargs
   .option("network", {
     type: "string",
@@ -31,6 +33,8 @@ if (["rinkeby", "mainnet"].includes(argv.network) && INFURA_KEY === undefined) {
     `Could not find Infura key in env, unable to connect to network ${argv.network}`,
   );
 }
+
+setupTasks();
 
 export default {
   paths: {
