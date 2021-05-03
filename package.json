@@ -1,0 +1,32 @@
+{
+  "name": "@gnosis.pm/gp-v2-dune",
+  "version": "0.0.1",
+  "license": "LGPL-3.0-or-later",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --max-warnings 0 .",
+    "lint:write": "eslint --fix .",
+    "fmt": "prettier --check '**/*.ts'",
+    "fmt:write": "prettier --write '**/*.ts'"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.1.4",
+    "hardhat": "^2.2.1",
+    "yargs": "^17.0.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "=3.4.0-solc-0.7",
+    "@types/yargs": "^16.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
