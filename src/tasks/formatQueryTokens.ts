@@ -37,7 +37,7 @@ function formatToken(token: TokenDetails, network: string): string | null {
   }
   return `('${token.symbol}', ${
     token.decimals
-  }, decode('${token.address.substring(2).toLowerCase()}', 'hex'))`;
+  }, decode('${token.address.substring(2).toLowerCase()}', 'hex')),`;
 }
 
 function blockExplorerLink(address: string, network: string) {
