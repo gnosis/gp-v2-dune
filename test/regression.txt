@@ -1,3 +1,3 @@
-\xc5bddf9843308380375a611c18b50fb9341f502a
-\x7fc3ec3574d408f3b59cd88709bacb42575ebf2b
-\x7fc3ec3574d408f3b59cd88709bacb42575ebf2b
+\xc5bddf9843308380375a611c18b50fb9341f502a - symbol with exclamation mark
+\x7fc3ec3574d408f3b59cd88709bacb42575ebf2b - symbol with hyphen
+\x7fc3ec3574d408f3b59cd88709bacb42575ebf2b - repeating address
