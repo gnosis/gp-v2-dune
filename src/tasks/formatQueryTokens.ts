@@ -72,7 +72,10 @@ const setupFormatQueryTokens: () => void = () => {
             ? -1
             : 1,
         )
-        .filter((token, index) => index === tokens.indexOf(token));
+        .filter(
+          (token, index) =>
+            index === tokens.findIndex((t) => token.address === t.address),
+        );
       const outputStrings = tokens
         .map((token) => formatToken(token, hre.network.name))
         .filter((output) => output !== null);
