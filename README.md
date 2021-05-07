@@ -1,6 +1,6 @@
 # GPv2 Dune tools
 
-A repository collecting the tools we used to build the Dune dashboards for GPv2.
+A repository collecting the tools we used to build the [Dune dashboards for GPv2](https://duneanalytics.com/gnosis.protocol/Gnosis-Protocol-V2).
 
 ## Testing
 
