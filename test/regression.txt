@@ -1,3 +1,4 @@
 \xc5bddf9843308380375a611c18b50fb9341f502a - symbol with exclamation mark
 \x7fc3ec3574d408f3b59cd88709bacb42575ebf2b - symbol with hyphen
 \x7fc3ec3574d408f3b59cd88709bacb42575ebf2b - repeating address
+\xcae72a7a0fd9046cf6b165ca54c9e3a3872109e0 - symbol with $
