@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@eslint/eslintrc@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.0.tgz#99cc0a0584d72f1df38b900fb062ba995f395547"
-  integrity sha512-2ZPCc+uNbjV5ERJr+aKSPRwZgKd2z11x0EgLvb1PURmUrn9QNRXFqje0Ldq454PfAVyaJYyrDvvIKSFP4NnBog==
+"@eslint/eslintrc@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.1.tgz#442763b88cecbe3ee0ec7ca6d6dd6168550cbf14"
+  integrity sha512-5v7TDE9plVhvxQeWLXDTvFvJBdH6pEsdnl2g/dAptmuFEPedQ4Erq5rsDsX+mvAM610IhNaO2W5V1dOOnDKxkQ==
   dependencies:
     ajv "^6.12.4"
     debug "^4.1.1"
@@ -649,14 +649,14 @@
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^4.22.0":
-  version "4.22.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.22.0.tgz#e1637327fcf796c641fe55f73530e90b16ac8fe8"
-  integrity sha512-z/bGdBJJZJN76nvAY9DkJANYgK3nlRstRRi74WHm3jjgf2I8AglrSY+6l7ogxOmn55YJ6oKZCLLy+6PW70z15Q==
+"@typescript-eslint/parser@^4.24.0":
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.24.0.tgz#2e5f1cc78ffefe43bfac7e5659309a92b09a51bd"
+  integrity sha512-dj1ZIh/4QKeECLb2f/QjRwMmDArcwc2WorWPRlB8UNTZlY1KpTVsbX7e3ZZdphfRw29aTFUSNuGB8w9X5sS97w==
   dependencies:
-    "@typescript-eslint/scope-manager" "4.22.0"
-    "@typescript-eslint/types" "4.22.0"
-    "@typescript-eslint/typescript-estree" "4.22.0"
+    "@typescript-eslint/scope-manager" "4.24.0"
+    "@typescript-eslint/types" "4.24.0"
+    "@typescript-eslint/typescript-estree" "4.24.0"
     debug "^4.1.1"
 
 "@typescript-eslint/scope-manager@4.22.0":
@@ -667,10 +667,23 @@
     "@typescript-eslint/types" "4.22.0"
     "@typescript-eslint/visitor-keys" "4.22.0"
 
+"@typescript-eslint/scope-manager@4.24.0":
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-4.24.0.tgz#38088216f0eaf235fa30ed8cabf6948ec734f359"
+  integrity sha512-9+WYJGDnuC9VtYLqBhcSuM7du75fyCS/ypC8c5g7Sdw7pGL4NDTbeH38eJPfzIydCHZDoOgjloxSAA3+4l/zsA==
+  dependencies:
+    "@typescript-eslint/types" "4.24.0"
+    "@typescript-eslint/visitor-keys" "4.24.0"
+
 "@typescript-eslint/types@4.22.0":
   version "4.22.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.22.0.tgz#0ca6fde5b68daf6dba133f30959cc0688c8dd0b6"
   integrity sha512-sW/BiXmmyMqDPO2kpOhSy2Py5w6KvRRsKZnV0c4+0nr4GIcedJwXAq+RHNK4lLVEZAJYFltnnk1tJSlbeS9lYA==
+
+"@typescript-eslint/types@4.24.0":
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-4.24.0.tgz#6d0cca2048cbda4e265e0c4db9c2a62aaad8228c"
+  integrity sha512-tkZUBgDQKdvfs8L47LaqxojKDE+mIUmOzdz7r+u+U54l3GDkTpEbQ1Jp3cNqqAU9vMUCBA1fitsIhm7yN0vx9Q==
 
 "@typescript-eslint/typescript-estree@4.22.0":
   version "4.22.0"
@@ -685,12 +698,33 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
+"@typescript-eslint/typescript-estree@4.24.0":
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.24.0.tgz#b49249679a98014d8b03e8d4b70864b950e3c90f"
+  integrity sha512-kBDitL/by/HK7g8CYLT7aKpAwlR8doshfWz8d71j97n5kUa5caHWvY0RvEUEanL/EqBJoANev8Xc/mQ6LLwXGA==
+  dependencies:
+    "@typescript-eslint/types" "4.24.0"
+    "@typescript-eslint/visitor-keys" "4.24.0"
+    debug "^4.1.1"
+    globby "^11.0.1"
+    is-glob "^4.0.1"
+    semver "^7.3.2"
+    tsutils "^3.17.1"
+
 "@typescript-eslint/visitor-keys@4.22.0":
   version "4.22.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.22.0.tgz#169dae26d3c122935da7528c839f42a8a42f6e47"
   integrity sha512-nnMu4F+s4o0sll6cBSsTeVsT4cwxB7zECK3dFxzEjPBii9xLpq4yqqsy/FU5zMfan6G60DKZSCXAa3sHJZrcYw==
   dependencies:
     "@typescript-eslint/types" "4.22.0"
+    eslint-visitor-keys "^2.0.0"
+
+"@typescript-eslint/visitor-keys@4.24.0":
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-4.24.0.tgz#a8fafdc76cad4e04a681a945fbbac4e35e98e297"
+  integrity sha512-4ox1sjmGHIxjEDBnMCtWFFhErXtKA1Ec0sBpuz0fqf3P+g3JFGyTxxbF06byw0FRsPnnbq44cKivH7Ks1/0s6g==
+  dependencies:
+    "@typescript-eslint/types" "4.24.0"
     eslint-visitor-keys "^2.0.0"
 
 abort-controller@^3.0.0:
@@ -1282,10 +1316,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dotenv@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
-  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+dotenv@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-9.0.2.tgz#dacc20160935a37dea6364aa1bef819fb9b6ab05"
+  integrity sha512-I9OvvrHp4pIARv4+x9iuewrWycX6CcZtoAu1XrzPxc5UygMJXJZYmBsynku8IkrJwgypE5DGNjDPmPRhDCptUg==
 
 elliptic@6.5.4, elliptic@^6.5.2:
   version "6.5.4"
@@ -1459,13 +1493,13 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.25.0:
-  version "7.25.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.25.0.tgz#1309e4404d94e676e3e831b3a3ad2b050031eb67"
-  integrity sha512-TVpSovpvCNpLURIScDRB6g5CYu/ZFq9GfX2hLNIV4dSBKxIWojeDODvYl3t0k0VtMxYeR8OXPCFE5+oHMlGfhw==
+eslint@^7.26.0:
+  version "7.26.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.26.0.tgz#d416fdcdcb3236cd8f282065312813f8c13982f6"
+  integrity sha512-4R1ieRf52/izcZE7AlLy56uIHHDLT74Yzz2Iv2l6kDaYvEu9x+wMB5dZArVL8SYGXSYV2YAg70FcW5Y5nGGNIg==
   dependencies:
     "@babel/code-frame" "7.12.11"
-    "@eslint/eslintrc" "^0.4.0"
+    "@eslint/eslintrc" "^0.4.1"
     ajv "^6.10.0"
     chalk "^4.0.0"
     cross-spawn "^7.0.2"
@@ -3677,10 +3711,10 @@ yargs@13.3.2, yargs@^13.3.0:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-yargs@^17.0.0:
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.0.0.tgz#147db33e222e8e6a7829df5f2ae696b58d1c82bf"
-  integrity sha512-gbtedDPfBgG40iLbaRXhqYJycUYqFVZQLIxl1cG5Ez/xZL/47TetSYzPSIixkWa36GKHr9D/o/oSG1vHXF4zTw==
+yargs@^17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.0.1.tgz#6a1ced4ed5ee0b388010ba9fd67af83b9362e0bb"
+  integrity sha512-xBBulfCc8Y6gLFcrPvtqKz9hz8SO0l1Ni8GgDekvBX2ro0HRQImDGnikfc33cgzcYUSncapnNcZDjVFIH3f6KQ==
   dependencies:
     cliui "^7.0.2"
     escalade "^3.1.1"
