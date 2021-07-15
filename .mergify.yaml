@@ -1,4 +1,3 @@
-
 pull_request_rules:
   - name: Merge approved and green PRs with `merge when green` label
     conditions:
