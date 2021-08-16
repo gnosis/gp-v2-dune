@@ -14,7 +14,7 @@
     "dotenv": "^10.0.0",
     "ethers": "^5.4.4",
     "hardhat": "^2.6.0",
-    "yargs": "^17.1.0"
+    "yargs": "^17.1.1"
   },
   "devDependencies": {
     "@openzeppelin/contracts": "=4.2.0",
