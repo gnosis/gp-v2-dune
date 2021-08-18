@@ -17,7 +17,7 @@
     "yargs": "^17.1.1"
   },
   "devDependencies": {
-    "@openzeppelin/contracts": "=4.2.0",
+    "@openzeppelin/contracts": "=4.3.0",
     "@types/yargs": "^17.0.2",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
