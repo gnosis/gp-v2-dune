@@ -13,7 +13,7 @@
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "dotenv": "^10.0.0",
     "ethers": "^5.4.7",
-    "hardhat": "^2.6.5",
+    "hardhat": "^2.6.6",
     "yargs": "^17.2.1"
   },
   "devDependencies": {
