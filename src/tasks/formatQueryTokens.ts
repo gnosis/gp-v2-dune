@@ -29,15 +29,15 @@ function formatToken(token: TokenDetails, network: string): string | null {
     );
     return null;
   }
-  if (!/^[ -!$&a-zA-Z0-9]*$/.exec(token.symbol)) {
+  if (!/^[ +\-!$&a-zA-Z0-9]*$/.exec(token.symbol)) {
     console.warn(
       `Token at address ${token.address} contains invalid characters in its symbol: ${token.symbol}`,
     );
     return null;
   }
-  return `('${token.symbol}', ${token.decimals}, decode('${token.address
-    .substring(2)
-    .toLowerCase()}', 'hex')),`;
+  return `('${token.symbol}', ${
+    token.decimals
+  }, decode('${token.address.substring(2).toLowerCase()}', 'hex')),`;
 }
 
 function blockExplorerLink(address: string, network: string) {
