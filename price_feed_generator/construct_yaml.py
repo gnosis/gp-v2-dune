@@ -1,5 +1,6 @@
 import csv
 import json
+import yaml
 from collections import defaultdict
 
 
@@ -23,9 +24,20 @@ if __name__ == "__main__":
 
     print("Total unlisted tokens", len(tokens))
     found = 0
+    output = ""
     for token in tokens:
         if token['symbol'] in coins:
             # print(token, coins[token['symbol']])
-            if len(coins[token['symbol']]) == 1:
-                found += 1
+            possible_coins = coins[token['symbol']]
+            if len(possible_coins) == 1:
+                coin = possible_coins[0]
+                if coin['is_active'] == True and coin['is_new'] == False:
+                    # For some reason dune uses the snake case id as the name
+                    coin_name = coin['id'].replace('-', '_')
+                    output += f"- name: {coin_name}\n  id: {coin['id']}\n  symbol: {token['symbol']}\n  address: {token['address']}\n  decimals: {token['decimals']}\n"""
+                    found += 1
     print(found, "uniquely identifyable (by symbol) tokens in paprika list")
+    # print(output)
+    with open('./data/output.yaml', 'w') as out_file:
+        out_file.write(output)
+    
