@@ -19,27 +19,24 @@ def load_tokens(filepath: str):
 
 
 if __name__ == "__main__":
-    coins = load_coins('data/coinpaprikacoins.json')
+    coins = load_coins('data/coinpaprika.json')
     tokens = load_tokens('data/tokens-by-popularity.csv')
     
     tokens.sort(key=lambda entry: int(entry['popularity']), reverse=True)
 
-    found = 0
-    output = ""
+    found, output = 0, ""
     for token in tokens:
         if token['symbol'] in coins:
-            # print(token, coins[token['symbol']])
             possible_tokens = [coin for coin in coins[token['symbol']] if coin['type'] != 'coin']
             if len(possible_tokens) == 1:
                 possible_token = possible_tokens[0]
                 if possible_token['is_active'] == True and possible_token['is_new'] == False:
-                    # For some reason dune uses the snake case id as the name
+                    # dune uses the snake case id as the name
                     token_name = possible_token['id'].replace('-', '_')
                     output += f"- name: {token_name}\n  id: {possible_token['id']}\n  symbol: {token['symbol']}\n  address: {token['address']}\n  decimals: {token['decimals']}\n"""
                     found += 1
             else:
                 print("Token not uniquely identifyable!", token, len(possible_tokens))
-                # print("    ", possible_coins)
         if found > 50:
             break
     with open('./data/reduced-output.yaml', 'w') as out_file:
