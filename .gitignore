@@ -2,3 +2,5 @@ build/
 node_modules/
 yarn-error.log
 *.tgz
+**/*.pyc
+price_feed_generator/data/
