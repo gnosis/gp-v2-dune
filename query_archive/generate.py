@@ -31,7 +31,7 @@ def generate_query(filename: str, params: dict[str, Any]) -> str:
 
 
 if __name__ == "__main__":
-    # TODO generate missing tokens with TS script in this REPO
+    # TODO generate missing tokens dynamically by invoking TS script in this REPO
     missing_tokens = [
         "('LGB', 18, decode('21e783bcf445b515957a10e992ad3c8e9ff51288', 'hex'))",
         "('BYTES', 18, decode('7d647b1a0dcd5525e9c6b3d14be58f27674f8c95', 'hex'))"
@@ -64,4 +64,5 @@ if __name__ == "__main__":
         }
     )
 
-    print(trade_history)
+    with open('./gen/trade_history.sql', 'w') as file:
+        file.write(trade_history)
