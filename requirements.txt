@@ -2,3 +2,4 @@ Jinja2==3.0.3
 jinjasql==0.1.8
 MarkupSafe==2.0.1
 PyYAML==6.0
+six==1.16.0
