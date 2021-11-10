@@ -64,5 +64,5 @@ if __name__ == "__main__":
         }
     )
 
-    with open('trade_history.sql', 'w') as file:
+    with open('trade_history.gen.sql', 'w') as file:
         file.write(trade_history)
