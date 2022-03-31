@@ -1,3 +1,6 @@
+!!! THIS REPO HAS BEEN ARCIVED AND FUTURE DEVELOPMENT WILL HAPPEN ON THIS FORK https://github.com/cowprotocol/cow-dune !!!
+
+
 # GPv2 Dune tools
 
 A repository collecting the tools we used to build the [Dune dashboards for GPv2](https://duneanalytics.com/gnosis.protocol/Gnosis-Protocol-V2).
