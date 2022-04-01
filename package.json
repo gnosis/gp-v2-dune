@@ -1,7 +1,7 @@
 {
   "name": "@gnosis.pm/gp-v2-dune",
   "version": "0.0.1",
-  "license": "LGPL-3.0-or-later",
+  "license": "MIT OR Apache-2.0",
   "scripts": {
     "build": "tsc",
     "lint": "eslint --max-warnings 0 .",
