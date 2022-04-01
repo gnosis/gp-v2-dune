@@ -29,7 +29,7 @@ function formatToken(token: TokenDetails, network: string): string | null {
     );
     return null;
   }
-  if (!/^[ -!$&a-zA-Z0-9]*$/.exec(token.symbol)) {
+  if (!/^[ \+\⚗️.₡✺_\-!$&a-zA-Z0-9]*$/.exec(token.symbol)) {
     console.warn(
       `Token at address ${token.address} contains invalid characters in its symbol: ${token.symbol}`,
     );

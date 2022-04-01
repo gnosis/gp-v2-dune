@@ -42,7 +42,7 @@ if __name__ == "__main__":
         'missing_tokens': ",\n".join(missing_tokens)
     }
     extended_token_list = generate_query(
-        './sql/extended_token_list.sql',
+        'sql/extended_token_list.jinja',
         params={
             'missing_tokens': ",\n".join(missing_tokens)
         }
