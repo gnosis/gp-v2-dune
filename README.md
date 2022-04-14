@@ -1,4 +1,7 @@
-!!! THIS REPO HAS BEEN ARCIVED AND FUTURE DEVELOPMENT WILL HAPPEN ON THIS FORK https://github.com/cowprotocol/cow-dune !!!
+!!! **ATTENTION** !!! 
+
+The team that worked on this project has spun out of Gnosis Organisation and continues development on a forked repo (April 5, 2022) which is available here [https://github.com/cowprotocol/cow-dune](https://github.com/cowprotocol/cow-dune)
+
 
 
 # GPv2 Dune tools
